@@ -1,0 +1,1 @@
+java -cp "/home/surbhi/Desktop/Named-Entity-Recognition/mallet-2.0.8RC3/class:/home/surbhi/Desktop/Named-Entity-Recognition/mallet-2.0.8RC3/lib/mallet-deps.jar" cc.mallet.fst.SimpleTagger --model-file /home/surbhi/Desktop/Named-Entity-Recognition/nercrf a2_test.txt > ner_op.txt

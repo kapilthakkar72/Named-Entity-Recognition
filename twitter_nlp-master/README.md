@@ -8,7 +8,7 @@ Example Usage:
 
 ```
 export TWITTER_NLP=./
-python python/ner/extractEntities.py test.1k.txt -o output.txt
+python twitter_nlp-master/python/ner/extractEntities.py test.1k.txt -o output.txt
 ```
 
 If the file is a tab separated file. Use the i-th (starting from 0) column as a text column to read from. 

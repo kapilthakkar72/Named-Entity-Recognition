@@ -1,7 +1,7 @@
 import sys
 
 if(len(sys.argv) != 2):
-	print "usage: python tokens_to_tweet.py <file_name>"
+	print "usage: python preprocess_conll_format.py <file_name>"
 	sys.exit(0)
 
 args = sys.argv

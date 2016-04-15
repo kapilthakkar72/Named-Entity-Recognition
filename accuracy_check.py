@@ -21,7 +21,6 @@ correct_predicted = 0.0
 
 i=0
 while(i < n):
-	print str(i)+"/"+str(n)
 	predicted = ip_file[i]
 	gold = op_file[i]
 	# Split

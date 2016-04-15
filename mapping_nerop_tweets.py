@@ -18,3 +18,6 @@ n = min(len(ip_file),len(op_file))
 
 for i in range(0,n):
 	print ip_file[i].strip() + " " + op_file[i].strip()
+
+ip_file_object.close()
+op_file_object.close()

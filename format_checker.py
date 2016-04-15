@@ -13,6 +13,8 @@ w_lbl_lines = w_lbl.readlines()
 
 if len(wo_lbl_lines)!=len(w_lbl_lines):
 	print "damn!!! number of lines incorrect... (error!!!)"
+	print len(wo_lbl_lines)
+	print len(w_lbl_lines)
 	exit(1)
 
 for i in range(len(wo_lbl_lines)):
